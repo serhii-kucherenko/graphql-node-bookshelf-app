@@ -1,7 +1,7 @@
-import {Component, Input, OnChanges, OnInit} from '@angular/core';
-import {BookService} from "../../services/book.service";
-import {Book} from "../../types/book";
-import {Observable} from "rxjs";
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { BookService } from "../../services/book.service";
+import { Book } from "../../types/book";
+import { Observable } from "rxjs";
 
 @Component({
   selector: 'app-books-list',

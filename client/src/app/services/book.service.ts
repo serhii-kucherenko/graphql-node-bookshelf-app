@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Apollo } from 'apollo-angular';
 import gql from 'graphql-tag';
-import { map, filter } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 import { Query, Book } from "../types/book";
 import {Observable} from "rxjs";
@@ -16,13 +16,14 @@ export class BookService {
     return this._apollo.watchQuery<Query>({
       pollInterval: 500,
       query: gql`
-        query books($search: String) {
+        query Books($search: String) {
          books(search: $search) {
            id,
            title,
            description,
            author,
-           rating
+           coverImageLink,
+           likes
          }
         }
       `,
@@ -34,7 +35,7 @@ export class BookService {
     )
   }
 
-  public like(id: String): Observable<Book> {
+  public like(id: String) {
     return this._apollo.mutate({
       mutation: gql`
         mutation like($id: String!) {
@@ -43,17 +44,18 @@ export class BookService {
             title,
             description,
             author,
-            rating
+            coverImageLink,
+            likes
           }
         }
       `,
       variables: {
         id
       }
-    }).pipe( map((({ data }) => (data as { book: Book}).book )));
+    });
   }
 
-  public dislike(id: String): Observable<Book> {
+  public dislike(id: String) {
     return this._apollo.mutate({
       mutation: gql`
         mutation dislike($id: String!) {
@@ -62,13 +64,14 @@ export class BookService {
             title,
             description,
             author,
-            rating
+            coverImageLink,
+            likes
           }
         }
       `,
       variables: {
         id
       }
-    }).pipe( map((({ data }) => (data as { book: Book}).book )));
+    });
   }
 }

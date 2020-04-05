@@ -1,6 +1,7 @@
 <div class="row">
   <app-books-list-item
     *ngFor="let book of books | async"
+    class="col-md-4"
     [book]="book"
   ></app-books-list-item>
 </div>

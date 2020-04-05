@@ -7,7 +7,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon --exec babel-node server.js",
-    "seeder": "babel-node seeder.js --i",
+    "seeder": "npm run cleaner && babel-node seeder.js --i",
     "cleaner": "babel-node seeder.js --d",
     "mongod": "mongod --dbpath=data/db",
     "test": "echo \"Error: no test specified\" && exit 1"

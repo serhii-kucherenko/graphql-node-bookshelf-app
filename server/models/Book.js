@@ -24,7 +24,7 @@ const BookSchema = new Schema({
         ],
         required: [true, "Please, add a book cover image link"]
     },
-    rating: {
+    likes: {
         type: Number,
         default: 0
     }

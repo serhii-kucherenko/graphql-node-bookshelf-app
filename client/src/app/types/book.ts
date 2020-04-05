@@ -4,7 +4,7 @@ export type Book = {
   description: string,
   author: string,
   coverImageLink: string,
-  rating: number
+  likes: number
 };
 
 export type Query = {

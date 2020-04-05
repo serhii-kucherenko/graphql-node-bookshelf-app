@@ -2,22 +2,43 @@
   {
     "title": "Harry Potter and the Sorcerer's stone",
     "author": "J.K. Rowling",
-    "description": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.",
+    "description": "A global phenomenon and cornerstone of contemporary children's literature, J.K. Rowling's Harry Potter series is both universally adored and critically acclaimed. Now, experience the magic as you've never heard it before. The inimitable Jim Dale brings to life an entire cast of characters-from the pinched, nasal whine of Petunia Dursley to the shrill huff of the Sorting Hat to the earnest, wondrous voice of the boy wizard himself.\n\nOrphaned as an infant, young Harry Potter has been living a less-than-fortunate life. Belittled by his pompous uncle and sniveling aunt (not to mention his absolute terror of a cousin, Dudley), Harry has resigned himself to a mediocre existence in the cupboard under the stairs. But then the letters start dropping on the doormat at Number Four, Privet Drive. Addressed to \"Mr. H. Potter\" and stamped shut with a purple wax seal, the peculiar envelopes are swiftly confiscated by his relentlessly cruel family. But nothing stops Rubeus Hagrid, a great beetle-eyed giant of a man, from kicking down the door and bursting in with astonishing news: Harry Potter is a wizard-and not only a wizard, he's an incredibly famous wizard. Hagrid spirits him away to Hogwarts School of Witchcraft and Wizardry, setting into motion an incredible adventure (Banks run by goblins! Enchanted train platforms! Invisibility Cloaks!) that listeners won't ever forget. ",
     "coverImageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9nrOnN8sYfZZHJ06EIBSoEO5qjx7uHHEs6VtKNplGVuGhZuC",
-    "rating": 9
+    "likes": 8
   },
   {
-    "title": "Jurassic Park",
-    "author": "Michael Crichton",
-    "description": "John Hammond, an entrepreneur, opens a wildlife park containing cloned dinosaurs. However, a breakdown of the island's security system causes the creatures to escape and bring about chaos.",
-    "coverImageLink": "https://contentserver.com.au/assets/600436_p14812_p_v8_au.jpg",
-    "rating": 4
+    "title": "12 Rules for Life",
+    "author": "Jordan Peterson",
+    "description": "Humorous, surprising, and informative, Dr. Peterson tells us why skateboarding boys and girls must be left alone, what terrible fate awaits those who criticize too easily, and why you should always pet a cat when you meet one on the street.\n\nWhat does the nervous system of the lowly lobster have to tell us about standing up straight (with our shoulders back) and about success in life? Why did ancient Egyptians worship the capacity to pay careful attention as the highest of gods? What dreadful paths do people tread when they become resentful, arrogant, and vengeful? Dr. Peterson journeys broadly, discussing discipline, freedom, adventure, and responsibility, distilling the world's wisdom into 12 practical and profound rules for life. 12 Rules for Life shatters the modern commonplaces of science, faith, and human nature while transforming and ennobling the mind and spirit of its listeners.",
+    "coverImageLink": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/546x/00c1a1eab9920e00d38dc8798e6142c9/9/7/9780141988511.jpg",
+    "likes": 9
   },
   {
-    "title": "Adventures of Mowgli",
-    "author": "Rudyard Kipling",
-    "description": "Adventures of Mowgli is an animated feature-length story originally released as five animated shorts of about 20 minutes each between 1967 and 1971 in the Soviet Union. It is based on Rudyard Kipling's The Jungle Book. They were directed by Roman Davydov and made by Soyuzmultfilm studio.",
-    "coverImageLink": "https://static.tvtropes.org/pmwiki/pub/images/adventuresofmowgli.jpg",
-    "rating": 7
+    "title": "How the Mind Works",
+    "author": "Steven Pinker",
+    "description": "In this Pulitzer Prize finalist and national bestseller, one of the world's leading cognitive scientists tackles the workings of the human mind. What makes us rational―and why are we so often irrational? How do we see in three dimensions? What makes us happy, afraid, angry, disgusted, or sexually aroused? Why do we fall in love? And how do we grapple with the imponderables of morality, religion, and consciousness? How the Mind Works synthesizes the most satisfying explanations of our mental life from cognitive science, evolutionary biology, and other fields to explain what the mind is, how it evolved, and how it allows us to see, think, feel, laugh, interact, enjoy the arts, and contemplate the mysteries of life.",
+    "coverImageLink": "https://d1b14unh5d6w7g.cloudfront.net/0393334775.01.S001.LXXXXXXX.jpg?Expires=1586189962&Signature=aWqtmxzuY696frqHJ9khzrICaunrQ+C7OAkxFj5+T+uQNOkT9SgG4O39uG0TLZDyE8oTaLd+47BEzFEmCkyVLyiWyry1PNK3tuY2bF3qaUKrGeOovaZQ0IT8NjNyHgvgpks8+kJJpyis8Mvc6WG9OyKTh/E4kElks6THwd7wdBk=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+    "likes": 5
+  },
+  {
+    "title": "The Righteous Mind",
+    "author": "Jonathan Haidt",
+    "description": "Drawing on his twenty five years of groundbreaking research on moral psychology, Haidt shows how moral judgments arise not from reason but from gut feelings. He shows why liberals, conservatives, and libertarians have such different intuitions about right and wrong, and he shows why each side is actually right about many of its central concerns. In this subtle yet accessible book, Haidt gives you the key to understanding the miracle of human cooperation, as well as the curse of our eternal divisions and conflicts. If you’re ready to trade in anger for understanding, read The Righteous Mind.",
+    "coverImageLink": "https://d1b14unh5d6w7g.cloudfront.net/0307455777.01.S001.LXXXXXXX.jpg?Expires=1586190072&Signature=c/EFH5D96sRgSasRINB/ek7cp07UInGH7nFF3i8uAsBM+1AXEUm3a9Y47NKcLt5H1isgA3bjhme/Szw9KJ+H8iRVT0BJmjRPpiqsundEVD4AjCucgdJNlofWu/ai7k1DNoD85SnmFvtHyUUyeMEX00f7PDHKnDcZ09YvUWGJzpY=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+    "likes": 4
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "description": "Psychiatrist Viktor Frankl's memoir has riveted generations of readers with its descriptions of life in Nazi death camps and its lessons for spiritual survival. Between 1942 and 1945 Frankl labored in four different camps, including Auschwitz, while his parents, brother, and pregnant wife perished. Based on his own experience and the experiences of others he treated later in his practice, Frankl argues that we cannot avoid suffering but we can choose how to cope with it, find meaning in it, and move forward with renewed purpose. Frankl's theory-known as logotherapy, from the Greek word logos (\"meaning\")-holds that our primary drive in life is not pleasure, as Freud maintained, but the discovery and pursuit of what we personally find meaningful.\n\nMan's Search for Meaning is more relevant today than ever, Viktor Frank's message provides hope even in the darkest of times. It has sold more than 16 million copies in fifty languages. A reader survey for the Library of Congress that asked readers to name a \"book that made a difference in your life\" found Man's Search for Meaning among the ten most influential books in America.\n\nBeacon Press, the original English-language publisher of Man's Search for Meaning, is issuing this new paperback edition with a new Foreword, biographical Afterword, and classroom materials to reach new generations of readers.",
+    "coverImageLink": "https://d1b14unh5d6w7g.cloudfront.net/0807014273.01.S001.LXXXXXXX.jpg?Expires=1586190162&Signature=UP13J6poSI4YXDXFNb7DMUAqxB6o2ua8jy4fnYHIPLXGbeYnaVdyvY3xT7oA5ip9MB0KGMxQmrcCnJaicK0fQSgCXNWuOcjlKIiGNz6PB+rgbToKZz69zIZeJ0kTK5COn8yGow3+mE04by9lP8KbRNxAAuNmERift6mNO/aveTU=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+    "likes": 4
+  },
+  {
+    "title": "Talking to Strangers: What We Should Know about the People We Don't Know",
+    "author": "Malcolm Gladwell",
+    "description": "How did Fidel Castro fool the CIA for a generation? Why did Neville Chamberlain think he could trust Adolf Hitler? Why are campus sexual assaults on the rise? Do television sitcoms teach us something about the way we relate to each other that isn't true?\n\nWhile tackling these questions, Malcolm Gladwell was not solely writing a book for the page. He was also producing for the ear. In the audiobook version of Talking to Strangers, you'll hear the voices of people he interviewed--scientists, criminologists, military psychologists. Court transcripts are brought to life with re-enactments. You actually hear the contentious arrest of Sandra Bland by the side of the road in Texas. As Gladwell revisits the deceptions of Bernie Madoff, the trial of Amanda Knox, and the suicide of Sylvia Plath, you hear directly from many of the players in these real-life tragedies. There's even a theme song - Janelle Monae's \"Hell You Talmbout.\"",
+    "coverImageLink": "https://d1b14unh5d6w7g.cloudfront.net/0316478520.01.S001.LXXXXXXX.jpg?Expires=1586190259&Signature=b1g1TKvf9kwLigvAJtP0zjYAWr5AGEjVhaKr+VO+HDc37btQtolYtWs0xirtYyCaAwQO12lDnRRCKf45zHmtkNh8YuBLow7Y2QnV3J7V7ManSxg+LPTPMKnhrL6jwqY+f3Q8VyGkQzXzDs4/bvWDQaL8vicUslp2epdz28OaZE8=&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+    "likes": 7
   }
 ]

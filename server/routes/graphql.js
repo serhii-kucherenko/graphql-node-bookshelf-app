@@ -9,6 +9,7 @@ export default app => {
         bodyParser.json(),
         graphqlExpress({
             schema,
+            cors: true,
             debug: false,
             formatError: errorHandler
         })

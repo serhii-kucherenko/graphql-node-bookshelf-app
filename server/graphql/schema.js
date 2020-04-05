@@ -8,7 +8,7 @@ const typeDefs = `
         author: String,
         description: String,
         coverImageLink: String,
-        rating: Int
+        likes: Int
     }
     
     type Query {
