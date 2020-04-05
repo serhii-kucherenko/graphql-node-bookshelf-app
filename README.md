@@ -39,7 +39,7 @@ npm run start
 - MongoDB & Mongoose
 - GraphQL
 - Apollo Server / Client
-- Angular
+- Angular 9
 - Bootstrap 4
 
 ## Features:
