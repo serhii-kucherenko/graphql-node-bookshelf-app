@@ -10,7 +10,6 @@
 ```
 # Run inside /server and /client folders
 npm install
-
 ```
 
 ## Run Server (run from /server folder)
