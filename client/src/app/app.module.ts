@@ -11,6 +11,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 
 // Global Configs
 import { environment } from '../environments/environment';
+import {BooksListModule} from "./components/books-list/books-list.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,7 +20,8 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     HttpClientModule,
     ApolloModule,
-    HttpLinkModule
+    HttpLinkModule,
+    BooksListModule
   ],
   bootstrap: [AppComponent],
   providers: [{
