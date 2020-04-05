@@ -1,45 +1,39 @@
-import books from '../data/books';
+import mongoose from 'mongoose';
+import Book from "../models/Book";
 
 const resolvers = {
     Query: {
-        books: (root, { searchTerm }) => {
-            return books;
+        books: async (root, { searchParams }) => {
+            if (searchParams) {
+                return await Book.find({ $text: { $search: searchParams } }).sort({rating: 'desc'});
+            } else {
+                return await Book.find().sort({rating: 'desc'});
+            }
         },
 
-        book: (root, { id }) => {
-            return books.find(book => book.id === id);
+        book: async (root, { id }) => {
+            return await Book.findById(id);
         },
     },
 
     Mutation: {
-        addBook: (root, body) => {
-            const {
-                title,
-                author,
-                description
-            } = body;
-
-            const newBook = {
-                id: Math.random().toString(),
-                title,
-                author,
-                description,
-                rating: 0,
-            };
-
-            books.push(newBook);
-
-            return newBook;
+        addBook: async (root, body) => {
+            console.log(body);
+            return await Book.create(body);
         },
 
-        rate: (root, { id }) => {
-            books = books.map(book => {
-               return id === book.id
-                   ? { ...book, rate }
-                   : book
-            });
+        like: async (root, { id }) => {
+            return await Book.findByIdAndUpdate(
+                id,
+                { $inc: { rate: 1 }},
+                { new: true, runValidators: true });
+        },
 
-            return books.find(book => book.id === id);
+        dislike: async (root, { id }) => {
+            return await Book.findByIdAndUpdate(
+                id,
+                { $dec: { rate: -1 }},
+                { new: true, runValidators: true });
         }
     }
 };

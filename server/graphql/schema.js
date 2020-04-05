@@ -7,17 +7,19 @@ const typeDefs = `
         title: String, 
         author: String,
         description: String,
+        coverImageLink: String,
         rating: Int
     }
     
     type Query {
-        books(searchTerm: String): [Book]
+        books(searchParams: String): [Book]
         book(id: String!): Book
     }
     
     type Mutation {
-        addBook(title: String!, author: String!, description: String): Book
-        rate(id: String!, amount: Int!): Book
+        addBook(title: String!, author: String!, description: String!, coverImageLink: String!): Book
+        like(id: String!): Book
+        dislike(id: String!): Book
     }
 `;
 
