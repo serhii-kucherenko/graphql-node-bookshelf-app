@@ -1,0 +1,14 @@
+# Server
+server/node_modules/
+server/config/config.env
+
+# Client
+client/node_modules/
+
+# General
+.DS_Store
+server/.DS_Store
+client/.DS_Store
+.idea
+server/.idea
+client/.idea
