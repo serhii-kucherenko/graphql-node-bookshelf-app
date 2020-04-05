@@ -5,9 +5,9 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
 // Apollo Client
-import {Apollo, APOLLO_OPTIONS, ApolloModule} from "apollo-angular";
+import { APOLLO_OPTIONS, ApolloModule} from "apollo-angular";
 import { HttpLinkModule, HttpLink } from "apollo-angular-link-http";
-import {InMemoryCache} from "apollo-cache-inmemory";
+import { InMemoryCache } from "apollo-cache-inmemory";
 
 // Global Configs
 import { environment } from '../environments/environment';
