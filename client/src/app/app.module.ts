@@ -5,7 +5,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
 // Apollo Client
-import {Apollo, ApolloModule} from "apollo-angular";
+import {Apollo, APOLLO_OPTIONS, ApolloModule} from "apollo-angular";
 import { HttpLinkModule, HttpLink } from "apollo-angular-link-http";
 import {InMemoryCache} from "apollo-cache-inmemory";
 
@@ -21,15 +21,18 @@ import { environment } from '../environments/environment';
     ApolloModule,
     HttpLinkModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [{
+    provide: APOLLO_OPTIONS,
+    useFactory: (httpLink: HttpLink) => {
+      return {
+        cache: new InMemoryCache(),
+        link: httpLink.create({
+          uri: environment.graphqlUri
+        })
+      }
+    },
+    deps: [HttpLink]
+  }],
 })
-export class AppModule {
-  constructor(private _apollo: Apollo, private _httpLink: HttpLink) {
-    _apollo.create({
-      link: _httpLink.create({ uri: environment.graphqlUri }),
-      cache: new InMemoryCache()
-    })
-  }
-
-}
+export class AppModule {}
