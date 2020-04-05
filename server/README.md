@@ -1,1 +1,1 @@
-# Bookshelf - GraphQL Server app
+# Bookshelf - GraphQL Server
