@@ -2,7 +2,7 @@
 
 > Full Stack app for books
 >
->[View](https://github.com/cherenkor/bootcamper-api-node-express-mongodb/example.png)
+>[UI Example](https://github.com/cherenkor/graphql-node-bookshelf-app/blob/master/example.jpg)
 
 ## Install
 
