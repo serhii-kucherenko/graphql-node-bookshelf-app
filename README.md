@@ -1,8 +1,9 @@
 # Bookshelf
 
 > Full Stack app for books
->
->[UI Example](https://github.com/cherenkor/graphql-node-bookshelf-app/blob/master/example.jpg)
+
+## Preview
+![Preview](https://raw.githubusercontent.com/cherenkor/graphql-node-bookshelf-app/master/preview.jpg)
 
 ## Install
 
