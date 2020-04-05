@@ -12,7 +12,7 @@ const typeDefs = `
     }
     
     type Query {
-        books(searchParams: String): [Book]
+        books(search: String): [Book]
         book(id: String!): Book
     }
     

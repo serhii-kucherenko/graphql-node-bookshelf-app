@@ -2,9 +2,9 @@ import Book from "../models/Book";
 
 const resolvers = {
     Query: {
-        books: (root, { searchParams }) => {
-            if (searchParams) {
-                return Book.find({ $text: { $search: searchParams } }).sort({rating: 'desc'});
+        books: (root, { search }) => {
+            if (search) {
+                return Book.find({ $text: { $search: search } }).sort({rating: 'desc'});
             } else {
                 return Book.find().sort({rating: 'desc'});
             }
