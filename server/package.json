@@ -2,14 +2,16 @@
   "name": "bookshelf-app",
   "version": "1.0.0",
   "description": "Bookshelf App API",
+  "author": "Kucherenko Sergey",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
-    "dev": "babel-watch server.js",
+    "dev": "nodemon --exec babel-node server.js",
+    "seeder": "babel-node seeder.js --i",
+    "cleaner": "babel-node seeder.js --d",
     "mongod": "mongod --dbpath=data/db",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kucherenko Sergey",
-  "license": "MIT",
   "dependencies": {
     "apollo-server-express": "^1.4.0",
     "body-parser": "^1.19.0",
@@ -19,13 +21,16 @@
     "express": "^4.17.1",
     "graphql": "^15.0.0",
     "graphql-tools": "^4.0.7",
+    "lodash": "^4.17.15",
     "mongoose": "^5.9.7"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-watch": "^7.0.0"
+    "babel-watch": "^7.0.0",
+    "nodemon": "^2.0.2"
   }
 }
