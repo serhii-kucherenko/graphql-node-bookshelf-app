@@ -1,6 +1,7 @@
 # Server
 server/node_modules/
 server/config/config.env
+server/data/db/*
 
 # Client
 client/node_modules/
